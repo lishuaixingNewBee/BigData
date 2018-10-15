@@ -4,13 +4,11 @@
 
 **Live demo:** http://panjiachen.github.io/vue-admin-template
 
-[中文文档](https://github.com/PanJiaChen/vue-admin-template/blob/master/README-zh.md)
-
-## Build Setup
+## 项目构建
 
 ```bash
 # Clone project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+git clone https://github.com/lishuaixingNewBee/BigData.git
 
 # Install dependencies
 npm install
