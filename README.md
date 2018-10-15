@@ -32,7 +32,7 @@ npm run build --report
 
 ## Demo
 
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
+![demo](http://c2.h54hterh.top/manage/image/d20340ddc383306b3c8bff93cbe399fe.gif)
 
 ## Extra
 
