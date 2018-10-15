@@ -12,8 +12,7 @@
 
 ```bash
 # Clone project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
-
+git clone https://github.com/lishuaixingNewBee/BigData.git
 # Install dependencies
 npm install
 
