@@ -154,7 +154,7 @@
     <el-dialog title="支持赞助" :visible.sync="dialogVisible">
       <div class="popup_wrap">
         <img src="http://c2.h54hterh.top/manage/thumbnail/780f6ae844f7bfe9828a5486a07f4666.png">
-        <p class="text">gordan实验的所有成果,均为开源项目,感谢赞助我们（用于服务器费用)</p>
+        <p class="text">狗蛋实验的所有成果,均为开源项目,感谢赞助我们（用于服务器费用)</p>
       </div>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>
