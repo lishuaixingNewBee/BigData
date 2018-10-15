@@ -24,7 +24,7 @@
             <span class="ellipsis" @click='handleCopy(scope.row.name, $event)'>{{ scope.row.name }}</span>
           </template>
         </el-table-column>
-        <el-table-column :filter-method="filterHandler" :filters="[{text: '全部', value: 1}, {text: '仅手机', value: 2}]" prop="phone" label="电话" width="190">
+        <el-table-column :filter-method="filterHandler" :filters="[{text: '仅手机', value: 2}]" prop="phone" label="电话" width="190">
         </el-table-column>
         <el-table-column prop="channel_name" label="一级分类" align="center" width="80">
         </el-table-column>

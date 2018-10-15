@@ -8,7 +8,7 @@
         <div class="right">
           <el-button size="mini" type="primary" plain @click="handlerOpen">登入</el-button>
           <div class="icon_wrap">
-            <a href="https://github.com/lishuaixingNewBee" target="_blank" class="icon github"></a>
+            <a href="https://github.com/lishuaixingNewBee/BigData" target="_blank" class="icon github"></a>
             <i class="icon weixin" @click="dialogVisible = true"></i>
             <i class="icon zhifubao" @click="dialogVisible = true"></i>
           </div>

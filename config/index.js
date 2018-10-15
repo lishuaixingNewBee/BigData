@@ -9,12 +9,12 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
-      '/api': {
-        target: 'http://api.gordanlee.cn',
-        changeOrigin: true
-      }
-    },
+    // proxyTable: {
+    //   '/api': {
+    //     target: 'https://easy-mock.com/mock/5bbc13a4b0178f70f871b455',
+    //     changeOrigin: true
+    //   }
+    // },
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 9528, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined

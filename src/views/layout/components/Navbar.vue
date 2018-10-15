@@ -7,7 +7,7 @@
     </el-tooltip>
     <el-dropdown class="avatar-container" trigger="click">
       <div class="avatar-wrapper">
-        <img src="http://c2.h54hterh.top/manage/thumbnail/556affc74a4cc3a5eced2e2bd403aa55.jpg" class="user-avatar">
+        <img :src="avatar" class="user-avatar">
         <i class="el-icon-caret-bottom" />
       </div>
       <el-dropdown-menu slot="dropdown" class="user-dropdown">
