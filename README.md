@@ -1,5 +1,9 @@
 # 聚合数据-狗蛋实验室
 
+<p align="center">
+  <img height="50" src="http://c2.h54hterh.top/manage/common/9e94c959250edb13612dacec696e70a5.png">
+</p>
+
 > 狗蛋实验室推出的智能化数据抓取、处理、分析，挖掘平台。提供美团、大众点评、饿了么、百度地图等数据。这是一个 极简的 vue admin 管理后台 它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
 **在线 demo:** https://lishuaixingnewbee.github.io/BigData/dist/
