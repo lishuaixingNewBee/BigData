@@ -1,0 +1,150 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './animate.scss';
+@import './star.scss';
+@import './sidebar.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main {
+  min-height: 100%
+}
+
+.app-container {
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  .pagination-container {
+    margin-top: 0px;
+    text-align: right;
+    padding: 10px;
+  }
+  .app-table {
+    flex: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+  }
+}
+
+.filter-container {
+  margin-bottom: 10px;
+  display: flex;
+
+  .filter-item {
+    margin-right: 10px;
+
+    label {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #202020;
+      text-align: right;
+      padding-right: 10px;
+      float: left;
+    }
+  }
+}
+
+.el-table__header th,
+.el-table__header tr {
+  background-color: #00b7a3;
+  color: #fff;
+}
+
+// 文本益处省略号
+.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 表格内图片
+.table_img_container {
+  div:nth-last-of-type(1) {
+    margin-right: 0;
+  }
+  a:nth-last-of-type(1) {
+    margin-right: 0;
+  }
+}
+.table_img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px 0 rgba(26, 52, 45, .4);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
