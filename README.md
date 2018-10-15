@@ -1,6 +1,6 @@
 # 聚合数据-狗蛋实验室
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+> 狗蛋实验室推出的智能化数据抓取、处理、分析，挖掘平台。提供美团、大众点评、饿了么、百度地图等数据。
 
 **Live demo:** http://panjiachen.github.io/vue-admin-template
 
