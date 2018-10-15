@@ -32,7 +32,7 @@ npm run build --report
 
 ## Demo
 
-![demo](http://c2.h54hterh.top/manage/image/d20340ddc383306b3c8bff93cbe399fe.gif)
+![demo](https://user-gold-cdn.xitu.io/2018/10/15/1667626743d3afaf?w=1374&h=650&f=gif&s=3824815)
 
 ## Extra
 
